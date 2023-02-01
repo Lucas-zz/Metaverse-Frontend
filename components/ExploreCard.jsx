@@ -21,7 +21,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+      <div className="absolute bottom-0 p-8 justify-start w-full sm:h-auto h-full sm:rounded-t-none rounded-[24px] flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
         <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}>
           <img
             src="/headset.svg"
